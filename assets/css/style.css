@@ -48,6 +48,8 @@ main section {
     width: 100%;
     margin-left: 20px;
     padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
     height: 400px;
     margin-bottom: 80px;
     display: flex;
@@ -57,12 +59,41 @@ main section {
 
 #work {
     width: 100%;
-    height: 800px;
+    height: 700px;
     margin-left: 20px;
     padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
     margin-bottom: 80px;
     display: flex;
     flex-direction: column;
+}
+
+.bigcard {
+    width: 95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    height: 300px;
+    background-color: lightcoral;
+}
+
+.cardcontainer {
+    margin: 0;
+    padding: 0;
+    padding-top:40px;
+    height:200px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.card {
+    width: 95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    height: 100%;
+    background-color: lightseagreen;
 }
 
 aside {
@@ -81,8 +112,9 @@ aside section {
     margin-bottom: 80px;
 }
 
+/* this has to match the height of the #work id so it lines up evenly*/
 #workaside {
-    height:800px;
+    height:700px;
 }
 
 aside section p {
@@ -91,3 +123,4 @@ aside section p {
     flex-direction: column;
     align-items: center;
 }
+
