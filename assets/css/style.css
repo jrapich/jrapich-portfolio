@@ -57,7 +57,7 @@ main section {
     align-items: center;
 }
 
-#work {
+#projects {
     width: 100%;
     height: 700px;
     margin-left: 20px;
@@ -74,13 +74,26 @@ main section {
     margin-left:2.5%;
     margin-right:2.5%;
     height: 300px;
-    background-color: lightcoral;
+    background-image:url(../images/prework-study-guide.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:soft-light;
+    background-color:  rgba(25,74,14,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: mintcream;
+}
+
+.bigCard:hover {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
 }
 
 .cardContainer {
     margin: 0;
     padding: 0;
-    padding-top:40px;
+    padding-top:20px;
     height:200px;
     width:100%;
     display:flex;
@@ -94,15 +107,45 @@ main section {
     margin-right:2.5%;
     height: 100%;
     background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: mintcream;
+}
+
+.card h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImage {
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:soft-light;
+    background-color:  rgba(25,74,14,1);
+}
+
+.card h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImage:hover {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
 }
 
 #contactMe {
     width:100%;
     height:100px;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 aside {
@@ -110,6 +153,7 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 400px;
 }
 
 aside section {
@@ -122,7 +166,7 @@ aside section {
 }
 
 /* this has to match the height of the #work id so it lines up evenly*/
-#workAside {
+#projectsAside {
     height:700px;
 }
 
