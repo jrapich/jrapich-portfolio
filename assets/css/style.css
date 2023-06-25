@@ -1,5 +1,10 @@
+body {
+    background-color: mediumspringgreen;
+}
+
+
 header {
-    background-color: rgb(129, 220, 127);
+    background-color: mediumspringgreen;
     height: 50px;
     padding:5px;
     display:flex;
@@ -29,9 +34,9 @@ header nav h3 {
     background: linear-gradient(
         to bottom left,
         orange 25%,
-        cyan 25% 50%,
+        black 25% 50%,
         orange 50% 75%,
-        cyan 75%
+        black 75%
     );
     display: flex;
     justify-content: center;
@@ -132,7 +137,7 @@ main section {
     margin-left:2.5%;
     margin-right:2.5%;
     height: 100%;
-    background-color: lightseagreen;
+    background-color: mediumseagreen;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -247,11 +252,17 @@ this media query for whatever reason does absolutely nothing to the header and i
     }
 
     .selfie {
-        height: 135px;
-        width: 135px;
+        height: 130px;
+        width: 130px;
     }
 
     aside section p {
         font-size: 100%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    * p {
+        font-size:9px;
     }
 }
