@@ -23,7 +23,7 @@ link to deployed webpage:
 [https://jrapich.github.io/jrapich-portfolio](https://jrapich.github.io/jrapich-portfolio)
 
 Screenshot of what the deployed webpage should look like: 
-[./assets/images/Screenshot.jpg](Screenshot)
+[https://github.com/jrapich/jrapich-portfolio/blob/main/assets/images/Screenshot.jpg](https://github.com/jrapich/jrapich-portfolio/blob/main/assets/images/Screenshot.jpg)
 
 ## Credits
 
