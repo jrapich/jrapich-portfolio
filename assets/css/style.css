@@ -26,22 +26,27 @@ header nav ul {
         cyan 75%
     );
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 40px;
 }
 
 .divider div {
-    position: relative;
-    height:50%;
-    width:100px;
-    bottom:0;
-    left:0;
+    height: 85%;
+    width: 90%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    justify-content: right;
 }
 
-.divider h4 {
+.divider div h4 {
     display:flex;
     padding: 5px;
     align-items:end;
+    color:mintcream;
 }
 
 main {

@@ -12,3 +12,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients
 
 github logo:
 https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png
+
+nasa WEBB image:
+https://www.nasa.gov/image-feature/goddard/2022/nasa-s-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth
