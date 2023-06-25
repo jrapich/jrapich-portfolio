@@ -30,6 +30,14 @@ header nav ul {
     margin-bottom: 40px;
 }
 
+.divider div {
+    position: relative;
+    height:50%;
+    width:100px;
+    bottom:0;
+    left:0;
+}
+
 .divider h4 {
     display:flex;
     padding: 5px;
@@ -120,6 +128,16 @@ main section {
     align-items: center;
 }
 
+/* some leftover when i was experimenting with different ways to style
+.card div {
+    display:flex;
+    align-items: flex-end;
+}
+
+.card div p {
+    background-color: lightseagreen;
+}*/
+
 .cardImage {
     height:100%;
     width: 100%;
@@ -127,12 +145,6 @@ main section {
     background-size: cover;
     background-blend-mode:soft-light;
     background-color:  rgba(25,74,14,1);
-}
-
-.card h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cardImage:hover {
