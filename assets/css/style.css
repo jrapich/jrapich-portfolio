@@ -65,6 +65,11 @@ main section {
     align-items: center;
 }
 
+#aboutMe {
+    display: flex;
+    justify-content: space-between;
+}
+
 #projects {
     width: 100%;
     height: 700px;
@@ -174,7 +179,25 @@ aside section {
     border-right-width: 6px;
     height: 400px;
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 80px;  
+}
+
+aside section p {
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside div {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selfie {
+    height: 200px;
+    width: 200px;
 }
 
 /* this has to match the height of the #work id so it lines up evenly*/
@@ -187,9 +210,3 @@ aside section {
     height:100px;
 }
 
-aside section p {
-    font-size: 200%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
